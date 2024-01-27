@@ -3,6 +3,46 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
+static string Bmi(double weight, double height)
+{
+    double bmi = weight / (height * 2);
+    string result = string.Empty;
+    if(bmi<= 18.5)
+    {
+        result = "Underweight";
+    }
+    else if((bmi>=18.5)&&(bmi<=25))
+    {
+        result = "Normal";
+    }
+    else if((bmi<=25)&&(bmi<=30))
+    {
+        result = "Overweight";
+    }
+    else
+    {
+        result = "Obese";
+    }
+
+    return result;
+}
+
+//static int CountSheeps(bool[] sheeps)
+//{
+//    int x = 0;
+//    foreach (bool b in sheeps)            public static int CountSheeps(bool[] sheeps)
+//{
+//    return sheeps.Count(s => s);
+//}
+//    {
+//        if (b)
+//        {
+//            x++;
+//        }
+//    }
+//    return x;
+//}
+
 //static int[] InvertValues(int[] input)
 //{
 //    int[] result = new int[input.Length];
