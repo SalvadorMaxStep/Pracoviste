@@ -1,0 +1,4 @@
+C:\Users\Uživatel\Desktop\pracovní\C#\Genericita\Genericita\obj\Debug\net8.0\Genericita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uživatel\Desktop\pracovní\C#\Genericita\Genericita\obj\Debug\net8.0\Genericita.AssemblyInfoInputs.cache
+C:\Users\Uživatel\Desktop\pracovní\C#\Genericita\Genericita\obj\Debug\net8.0\Genericita.AssemblyInfo.cs
+C:\Users\Uživatel\Desktop\pracovní\C#\Genericita\Genericita\obj\Debug\net8.0\Genericita.csproj.CoreCompileInputs.cache

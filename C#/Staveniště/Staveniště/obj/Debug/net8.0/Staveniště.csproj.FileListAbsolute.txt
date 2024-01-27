@@ -1,0 +1,14 @@
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\bin\Debug\net8.0\Staveniště.exe
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\bin\Debug\net8.0\Staveniště.deps.json
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\bin\Debug\net8.0\Staveniště.runtimeconfig.json
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\bin\Debug\net8.0\Staveniště.dll
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\bin\Debug\net8.0\Staveniště.pdb
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\Staveniště.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\Staveniště.AssemblyInfoInputs.cache
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\Staveniště.AssemblyInfo.cs
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\Staveniště.csproj.CoreCompileInputs.cache
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\Staveniště.dll
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\refint\Staveniště.dll
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\Staveniště.pdb
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\Staveniště.genruntimeconfig.cache
+C:\Users\Uživatel\Desktop\pracovní\C#\Staveniště\Staveniště\obj\Debug\net8.0\ref\Staveniště.dll

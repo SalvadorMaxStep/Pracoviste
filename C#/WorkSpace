@@ -1,0 +1,21 @@
+namespace Solution 
+{
+  public static class SpacesRemover
+  {
+    public static string NoSpace(string input)
+    {
+        input = input.Trim();
+        char[] chars = new char[input.Length];
+          
+        string newInput = "";
+      
+        foreach(char c in chars)
+          {
+          if(c != " ")
+            {
+            newInput += newInput;
+          }
+        }
+    }  return newInput;
+  }
+}
