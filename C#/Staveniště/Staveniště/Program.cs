@@ -3,29 +3,40 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
-static string Bmi(double weight, double height)
+static int SquareSum(int[] numbers)
 {
-    double bmi = weight / (height * 2);
-    string result = string.Empty;
-    if(bmi<= 18.5)
+    int sum = 0;
+    foreach (int number in numbers)
     {
-        result = "Underweight";
+        int x = number * number;
+        sum += x;
     }
-    else if((bmi>=18.5)&&(bmi<=25))
-    {
-        result = "Normal";
-    }
-    else if((bmi<=25)&&(bmi<=30))
-    {
-        result = "Overweight";
-    }
-    else
-    {
-        result = "Obese";
-    }
-
-    return result;
+    return sum;
 }
+
+//static string Bmi(double weight, double height)
+//{
+//    double bmi = weight / (height * 2);
+//    string result = string.Empty;
+//    if(bmi<= 18.5)
+//    {
+//        result = "Underweight";
+//    }
+//    else if((bmi>=18.5)&&(bmi<=25))
+//    {
+//        result = "Normal";
+//    }
+//    else if((bmi<=25)&&(bmi<=30))
+//    {
+//        result = "Overweight";
+//    }
+//    else
+//    {
+//        result = "Obese";
+//    }
+
+//    return result;
+//}
 
 //static int CountSheeps(bool[] sheeps)
 //{
