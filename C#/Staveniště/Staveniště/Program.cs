@@ -3,16 +3,21 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
-static int SquareSum(int[] numbers)
+static int DescendingOrder(int num)
 {
-    int sum = 0;
-    foreach (int number in numbers)
-    {
-        int x = number * number;
-        sum += x;
-    }
-    return sum;
+   
 }
+
+//static int SquareSum(int[] numbers)
+//{
+//    int sum = 0;
+//    foreach (int number in numbers)
+//    {
+//        int x = number * number;
+//        sum += x;
+//    }
+//    return sum;
+//}
 
 //static string Bmi(double weight, double height)
 //{
