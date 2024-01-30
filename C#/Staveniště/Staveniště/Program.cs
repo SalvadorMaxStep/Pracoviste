@@ -3,10 +3,32 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
-static int DescendingOrder(int num)
-{
-   
-}
+
+//static string FakeBin(string x)           static string FakeBin(string x)
+                                            //{
+                                            //    return string.Concat(x.Select(a => a < '5' ? "0" : "1"));
+                                            //}
+//{
+//    string result = "";
+//    foreach (char c in x)
+//    {
+//        if(c < 5) 
+//        { result += 0; }
+//        else if (c > 5) 
+//        { result += 1; }
+//        else { result += c; }
+//    }
+//    return result;
+//}
+
+//static string RemoveExclamationMarks(string s)
+//{
+//    s.Replace("!", "");
+
+//}
+
+//static int Multiply(int x) => x % 2 == 0 ? x * 8 : x * 9;
+
 
 //static int SquareSum(int[] numbers)
 //{
