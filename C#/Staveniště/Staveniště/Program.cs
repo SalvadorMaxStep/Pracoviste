@@ -3,11 +3,16 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
+static string ReverseWords(string str)
+{
+    str.ToCharArray().Reverse();
+    
+}
 
 //static string FakeBin(string x)           static string FakeBin(string x)
-                                            //{
-                                            //    return string.Concat(x.Select(a => a < '5' ? "0" : "1"));
-                                            //}
+//{
+//                                          return string.Concat(x.Select(a => a < '5' ? "0" : "1"));
+//}
 //{
 //    string result = "";
 //    foreach (char c in x)
