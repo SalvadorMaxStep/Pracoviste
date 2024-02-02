@@ -3,11 +3,20 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
-static string ReverseWords(string str)
-{
-    str.ToCharArray().Reverse();
-    
-}
+// static List<string> Number(List<string> lines)
+//{
+//    for (int i = 0; i < lines.Count; i++)
+//    {
+//        lines[i] = (i+1) + ": " + lines[i];
+//    }
+//    return lines;
+//}
+
+//static string ReverseWords(string str)
+//{
+//    str.ToCharArray().Reverse();
+
+//}
 
 //static string FakeBin(string x)           static string FakeBin(string x)
 //{
