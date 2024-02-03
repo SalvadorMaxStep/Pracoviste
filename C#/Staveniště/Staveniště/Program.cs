@@ -3,6 +3,15 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
+//using System.Linq;
+//static bool Check(object[] a, object x) => a.Contains(x);
+
+
+//static string Remove_char(string s)
+//{
+//    return s.Substring(1, (s.Length - 2)); return s.Remove(s.Length - 1, 1).Remove(0, 1);
+//}
+
 // static List<string> Number(List<string> lines)
 //{
 //    for (int i = 0; i < lines.Count; i++)
