@@ -3,6 +3,24 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
+//static string UpdateLight(string current)
+//{
+//    string answer = "";
+//    switch(current)
+//    {
+//        case "green":
+//            answer = "yellow";
+//            break;
+//        case "yellow":
+//            answer = "red";
+//            break;
+//        case "red":
+//            answer = "green";
+//            break;
+//    }
+//    return answer;
+//}
+
 //using System.Linq;
 //static bool Check(object[] a, object x) => a.Contains(x);
 
