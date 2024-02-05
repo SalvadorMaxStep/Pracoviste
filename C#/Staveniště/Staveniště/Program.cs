@@ -1,7 +1,41 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
+
+//-----------------------------------------------------------------------------------------------------
+//using System.Linq;
+//public int Min(int[] list)
+//{
+//    return list.Min();
+//}
+
+//public int Max(int[] list)
+//{
+//    return list.Max();
+//}
+
+//-----------------------------------------------------------------------------------------------------
+//static bool IsTriangle(int a, int b, int c) =>
+//      a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c > a;
+
+
+//-----------------------------------------------------------------------------------------------------
+//static string AreYouPlayingBanjo(string name)
+//{
+//    if(name.StartsWith("R")||(name.StartsWith("r")))
+//    {
+//        return (name + " plays banjo");
+//    }
+//    else
+//    {
+//        return (name + " does not play banjo");
+//    }
+
+//    return char.ToLower(name[0]) == 'r' ? name + " plays banjo" : name + " does not play banjo";
+//}
+//-----------------------------------------------------------------------------------------------------
 
 //static string UpdateLight(string current)
 //{
@@ -20,7 +54,7 @@ using System.Runtime.CompilerServices;
 //    }
 //    return answer;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //using System.Linq;
 //static bool Check(object[] a, object x) => a.Contains(x);
 
@@ -29,7 +63,7 @@ using System.Runtime.CompilerServices;
 //{
 //    return s.Substring(1, (s.Length - 2)); return s.Remove(s.Length - 1, 1).Remove(0, 1);
 //}
-
+//-----------------------------------------------------------------------------------------------------
 // static List<string> Number(List<string> lines)
 //{
 //    for (int i = 0; i < lines.Count; i++)
@@ -38,13 +72,13 @@ using System.Runtime.CompilerServices;
 //    }
 //    return lines;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static string ReverseWords(string str)
 //{
 //    str.ToCharArray().Reverse();
 
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static string FakeBin(string x)           static string FakeBin(string x)
 //{
 //                                          return string.Concat(x.Select(a => a < '5' ? "0" : "1"));
@@ -61,15 +95,15 @@ using System.Runtime.CompilerServices;
 //    }
 //    return result;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static string RemoveExclamationMarks(string s)
 //{
 //    s.Replace("!", "");
 
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static int Multiply(int x) => x % 2 == 0 ? x * 8 : x * 9;
-
+//-----------------------------------------------------------------------------------------------------
 
 //static int SquareSum(int[] numbers)
 //{
@@ -81,7 +115,7 @@ using System.Runtime.CompilerServices;
 //    }
 //    return sum;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static string Bmi(double weight, double height)
 //{
 //    double bmi = weight / (height * 2);
@@ -105,7 +139,7 @@ using System.Runtime.CompilerServices;
 
 //    return result;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static int CountSheeps(bool[] sheeps)
 //{
 //    int x = 0;
@@ -121,7 +155,7 @@ using System.Runtime.CompilerServices;
 //    }
 //    return x;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static int[] InvertValues(int[] input)
 //{
 //    int[] result = new int[input.Length];
@@ -133,7 +167,7 @@ using System.Runtime.CompilerServices;
 
 //    return result;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static int FindShort(string s)
 //{
 //    string[] words = s.Split(' ');
@@ -147,7 +181,7 @@ using System.Runtime.CompilerServices;
 //    }
 //    return x;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static IEnumerable<string> FriendOrFoe(string[] names)
 //{
 //    foreach (string name in names)
@@ -158,19 +192,19 @@ using System.Runtime.CompilerServices;
 //        }
 //    }
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static IEnumerable<int> GetIntegersFromList(List<object> listOfItems)
 //{
 //    List<int> list = listOfItems.OfType<int>().ToList();
 //    return list;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static int[] ReturnArray()
 //{
 //    int UserInput = int.Parse(Console.ReadLine());
 //    int[] MainArray = new int[UserInput];
 //    MainArray[0] = 1;
-
+//-----------------------------------------------------------------------------------------------------
 //    for(int i = 0; i < MainArray.Length; i++)
 //    {
 //        MainArray[i] = i + 1;
@@ -179,7 +213,7 @@ using System.Runtime.CompilerServices;
 //    Array.Reverse(MainArray);
 //    return MainArray;
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static double FindAverage(double[] array)
 //{
 
@@ -197,7 +231,7 @@ using System.Runtime.CompilerServices;
 //        return Average;
 //    }
 //}
-
+//-----------------------------------------------------------------------------------------------------
 //static int[] Maps(int[] x)
 //{
 //    foreach(int a in x)
