@@ -4,6 +4,13 @@ using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
+
+//-----------------------------------------------------------------------------------------------------
+//static int StringToNumber(String str)
+//{
+//    return int.Parse(str);
+//}
+
 //-----------------------------------------------------------------------------------------------------
 //using System.Linq;
 //public int Min(int[] list)
