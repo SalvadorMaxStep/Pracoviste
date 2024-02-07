@@ -2,7 +2,29 @@
 
 using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.Design;
 using System.Runtime.CompilerServices;
+
+
+
+//-----------------------------------------------------------------------------------------------------
+//static bool IsIsogram(string str)
+//{
+//    str = str.Trim().ToLower();
+//    if(str == "") {  return true; }
+//    HashSet<char> seenCharacters = new HashSet<char>();
+
+//    foreach (char c in str)
+//    {
+//        if (seenCharacters.Contains(c))
+//        {
+//            return false;
+//        }
+//        seenCharacters.Add(c);
+//    }
+
+//    return true;
+//}
 
 
 //-----------------------------------------------------------------------------------------------------
