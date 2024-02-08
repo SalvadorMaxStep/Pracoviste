@@ -5,6 +5,23 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.Design;
 using System.Runtime.CompilerServices;
 
+//static string OddOrEven(int[] array)
+//{
+//    if(array == null || array.Sum() % 2 == 1)
+//    {
+//        return "odd";
+//    }
+//    else
+//    {
+//        return "even";
+//    }
+    
+//}
+
+
+//-----------------------------------------------------------------------------------------------------
+
+//static bool SetAlarm(bool employed, bool vacation) => (employed || !vacation) ? true: false;   
 
 
 //-----------------------------------------------------------------------------------------------------
