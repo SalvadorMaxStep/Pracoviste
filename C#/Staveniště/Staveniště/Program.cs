@@ -4,6 +4,13 @@ using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.Design;
 using System.Runtime.CompilerServices;
+//static int GetAge(string inputString)
+//{
+//    string c = inputString.Substring(0, 1);
+    
+//    return int.Parse(c);
+//}
+
 
 //static string OddOrEven(int[] array)
 //{
@@ -15,7 +22,7 @@ using System.Runtime.CompilerServices;
 //    {
 //        return "even";
 //    }
-    
+
 //}
 
 
