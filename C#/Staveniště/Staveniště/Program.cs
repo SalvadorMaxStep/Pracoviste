@@ -4,10 +4,32 @@ using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.Design;
 using System.Runtime.CompilerServices;
+
+//static string Greet(string name)
+//{
+//    string greet = "Hello, " + name + " how are you doing today?";
+//    return greet;
+//}
+//-----------------------------------------------------------------------------------------------------
+//static int GetVowelCount(string str)
+//{
+//    int vowelCount = 0;
+//    string samo = "aeiou";
+//    foreach (char item in str)
+//    {
+//        if(samo.Contains(item)) {vowelCount++;}
+//    }
+
+//    return vowelCount;
+//}
+
+
+//-----------------------------------------------------------------------------------------------------
+
 //static int GetAge(string inputString)
 //{
 //    string c = inputString.Substring(0, 1);
-    
+
 //    return int.Parse(c);
 //}
 
